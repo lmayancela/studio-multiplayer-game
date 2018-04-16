@@ -1,4 +1,5 @@
 import ChatRoom from './ChatRoom.js';
+import uno from './uno.js';
 import TicTacToe from './TicTacToe.js';
 import RockPaperScissors from './RockPaperScissors.js';
 
@@ -11,6 +12,15 @@ const gameData = {
     minUsers: 1,
     maxUsers: 10,
     component: ChatRoom,
+  },
+  
+  uno: {
+    title: "UNO",
+    authors: "Nia Davis, Jackie He, Lisandro Mayancela, Steven Rosario",
+    description: "The classic UNO game",
+    minUsers: 2,
+    maxUsers: 4,
+    component: uno,
   },
 
   tictactoe: {
@@ -30,7 +40,6 @@ const gameData = {
     maxUsers: 2,
     component: RockPaperScissors,
   },
-
 
 }
 
