@@ -15,11 +15,11 @@ const gameData = {
   },
   
   uno: {
-    title: "UNO",
+    title: "I Declare War",
     authors: "Nia Davis, Jackie He, Lisandro Mayancela, Steven Rosario",
     description: "The classic UNO game",
     minUsers: 2,
-    maxUsers: 4,
+    maxUsers: 22,
     component: uno,
   },
 

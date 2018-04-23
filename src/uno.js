@@ -10,30 +10,30 @@ import UserApi from './UserApi.js';
 export default class uno extends Component {
   render() {
     return (
-    <div>
       <div>
-        <RaisedButton label="Default" style={style}/>
-      </div>
-      <div>
-        <AvatarIcon/>
-      </div>
-    </div>)
+        <div>
+        </div>
+        <FlatButton label="Full width" fullWidth={true} />
+    </div>
+    );
   }
 }
 
-const AvatarIcon = () => (
-  <List>
-    <ListItem
+// Image of avatar & circle button/icon
+// const AvatarIcon = () => (
+//   <List>
+//     <ListItem
     
-          leftAvatar={<Avatar src={UserApi.getPhotoUrl()} />} />
-  </List>
-);
+//           leftAvatar={<Avatar src={UserApi.getPhotoUrl(
+//           )} />} />
+//   </List>
+// );
 
-const FlatButtonExampleSimple = () => (
-  <div>
-    <FlatButton label="Default" />
-  </div>
-);
+// const FlatButtonExampleSimple = () => (
+//   <div>
+//     <FlatButton label="Start" />
+//   </div>
+// );
 
 const style = {
   margin: 12,
@@ -41,6 +41,11 @@ const style = {
 
 const RaisedButtonExampleSimple = () => (
   <div>
-    <RaisedButton label="Default" style={style}/>
+    <RaisedButton label="Start" style={style}/>
   </div>
 );
+
+getRandomNumber(){
+  var number = Math.floor(Math.random() * 13)
+  console.log(number);
+}
