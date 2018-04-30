@@ -19,7 +19,7 @@ const gameData = {
     authors: "Nia Davis, Jackie He, Lisandro Mayancela, Steven Rosario",
     description: "The classic UNO game",
     minUsers: 2,
-    maxUsers: 22,
+    maxUsers: 2,
     component: uno,
   },
 

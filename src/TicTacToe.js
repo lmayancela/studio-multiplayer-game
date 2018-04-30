@@ -60,7 +60,7 @@ export default class TicTacToe extends Component {
     var databaseState = {
       cell_state: cellState,
       current_user: this.getOtherUser(),
-    }
+    };
     var sessionId = this.props.match.params.id;
     var sessionDatabaseRef = firebase.database().ref("/session/" + sessionId);
     sessionDatabaseRef.set(databaseState, (error) => {
